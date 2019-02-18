@@ -85,9 +85,9 @@ body {
 }
 
 .photo-info {
-    height: 185px;
-    width: 185px;
-    color: #fde8e5;
+    height: 180px;
+    width: 180px;
+    border: solid #fde8e5;
     align-content: center;
     margin-top: 50 px;
     margin-left: 0px;
