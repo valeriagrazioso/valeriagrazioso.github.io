@@ -26,10 +26,11 @@ body {
 /*Letter & Button*/
 
 .letter-container {
-    width:491px;
+    width:385px;
     display: flex;
     align-items:baseline;
     position: relative;
+    margin: 0 auto;
     
 }
 
