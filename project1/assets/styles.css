@@ -54,10 +54,17 @@ body {
 #button {
     width:66px;
     height:66px;
+    z-index:30;
     border-radius: 50%;
     background-color: #fde8e5;
 }
 
+.analysis {
+    position: absolute;
+    z-index:20;
+    top: 43px;
+    left: 148px;
+}
 
 .container-letters {
     overflow-x: scroll;
