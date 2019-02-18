@@ -55,10 +55,10 @@
       }
     </style>
   </defs>
-  <path id="Shape_1_copy" data-name="Shape 1 copy" class="cls-1" d="M1343,327h9V2979h-9V327Z"/>
-  <path id="Shape_1_copy_3" data-name="Shape 1 copy 3" class="cls-1" d="M849,327h9V2979h-9V327Z"/>
-  <path class="cls-2" d="M231,499v-8H2196v8H231Z"/>
-  <path id="Shape_1_copy_2" data-name="Shape 1 copy 2" class="cls-2" d="M229,2819v-8H2194v8H229Z"/>
-  <ellipse class="cls-3" cx="1365.5" cy="1170.5" rx="511.5" ry="558.5"/>
-  <ellipse class="cls-4" cx="1524" cy="1157" rx="670" ry="635"/>
+  <path id="Shape_1_copy" data-name="Shape 1 copy" class="cls-1" d="M1314,384h9V3036h-9V384Z"/>
+  <path id="Shape_1_copy_4" data-name="Shape 1 copy 4" class="cls-1" d="M799,384h9V3036h-9V384Z"/>
+  <path class="cls-2" d="M231,525v-8H2196v8H231Z"/>
+  <path id="Shape_1_copy_2" data-name="Shape 1 copy 2" class="cls-2" d="M229,2920v-8H2194v8H229Z"/>
+  <ellipse class="cls-3" cx="1338" cy="1211.5" rx="539" ry="579.5"/>
+  <ellipse class="cls-4" cx="1497.5" cy="1194" rx="698.5" ry="663"/>
 </svg>
