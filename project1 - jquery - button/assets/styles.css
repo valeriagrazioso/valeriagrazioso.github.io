@@ -39,8 +39,8 @@ body {
     font-weight:normal;
     margin-left:31.28px;
     margin-right:13.55px;
-    margin-top: -20px;
-    margin-bottom: -40px;
+    margin-top: -70px;
+    margin-bottom: -80px;
     
 }
 
@@ -115,7 +115,7 @@ body {
 .sources {
     height: 195px;
     width: 370px;
-    margin-top: 220px;
+    margin-top: 195px;
     margin-bottom: 30px;
     float: center;
     text-align: left;
