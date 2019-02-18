@@ -109,7 +109,7 @@ body {
 
 .info h4 {
     font-weight: normal;
-    font-size: 13px
+    font-size: 15px;
 }
 
 .sources {
@@ -119,6 +119,11 @@ body {
     margin-bottom: 30px;
     float: center;
     text-align: left;
+}
+
+.sources h4 {
+    font-weight: normal;
+    font-size: 14px;
 }
 
 a {
