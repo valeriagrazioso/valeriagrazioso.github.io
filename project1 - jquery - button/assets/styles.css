@@ -108,7 +108,8 @@ body {
 }
 
 .info h4 {
-    font-weight: normal   
+    font-weight: normal;
+    font-size: 12px
 }
 
 .sources {
