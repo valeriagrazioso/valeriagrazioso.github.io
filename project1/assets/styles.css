@@ -112,13 +112,13 @@ body {
     text-align: left;
 }
 
- a {
-            color: darkgrey;
-            text-decoration: none;
+a {
+    color: skyblue;
+    text-decoration: none;
         }
         
-  a:visited {
-            color: floralwhite;
+a:visited {
+    color: plum;
         }
 
     
