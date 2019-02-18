@@ -36,7 +36,7 @@ body {
 .letter-container h1 {
     font-size:500px;
     font-weight:normal;
-    margin-left:31.28px;
+    margin-left: 55;
     margin-right:13.55px;
     margin-top: -20px;
     margin-bottom: -40px;
@@ -65,7 +65,7 @@ body {
     position: absolute;
     z-index:20;
     top: 35px;
-    left: -17px;
+    left: 7px;
 }
 
 .container-letters {
