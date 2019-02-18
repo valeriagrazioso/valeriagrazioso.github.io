@@ -65,7 +65,7 @@ body {
 .analysis {
     position: absolute;
     z-index:20;
-    top: 35px;
+    top: -15px;
     left: -17px;
 }
 
