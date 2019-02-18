@@ -111,6 +111,16 @@ body {
     float: center;
     text-align: left;
 }
+
+a {
+    color: skyblue;
+    text-decoration: none;
+        }
+        
+a:visited {
+    color: plum;
+        }
+
     
     /*Fonts*/
 
