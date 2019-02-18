@@ -86,11 +86,12 @@ body {
 }
 
 .photo-info {
-    height: 180px;
-    width: 180px;
+    height: 150px;
+    width: 150px;
     border: solid #fde8e5;
+    border-width: thick;
     align-content: center;
-    margin-top: 50 px;
+    margin-top: 15px;
     margin-left: 0px;
     margin-bottom: 10px;
     float: left;
