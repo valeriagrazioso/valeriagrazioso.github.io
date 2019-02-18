@@ -107,6 +107,10 @@ body {
     text-align: right; 
 }
 
+.info h4 {
+    font-weight: normal   
+}
+
 .sources {
     height: 195px;
     width: 500px;
