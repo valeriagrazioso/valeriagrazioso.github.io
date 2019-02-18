@@ -113,12 +113,12 @@ body {
 }
 
 a {
-    color: skyblue;
+    color: steelblue;
     text-decoration: none;
         }
         
 a:visited {
-    color: plum;
+    color: mediumpurple;
         }
 
     
