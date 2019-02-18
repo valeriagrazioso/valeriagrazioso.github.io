@@ -29,6 +29,8 @@ body {
     width:491px;
     display: flex;
     align-items:baseline;
+    position: relative;
+    
 }
 
 .letter-container h1 {
