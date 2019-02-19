@@ -40,6 +40,7 @@ body {
     margin-right:13.55px;
     margin-top: -60px;
     margin-bottom: -70px;
+    position: static;
     
 }
 
@@ -75,8 +76,7 @@ body {
     letter-spacing: 15px;
     height:90px;
     margin-bottom: 10px;
-    z-index: 1;
-    position: top;
+    z-index: 1; 
 }
    
 .one {
