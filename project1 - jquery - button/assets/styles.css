@@ -20,7 +20,6 @@ body {
 
 .header {
     height:30px;
-    
 }
 
 /*Letter & Button*/
@@ -115,7 +114,7 @@ body {
 .sources {
     height: 195px;
     width: 370px;
-    margin-top: 195px;
+    margin-top: 198px;
     margin-bottom: 30px;
     float: center;
     text-align: left;
