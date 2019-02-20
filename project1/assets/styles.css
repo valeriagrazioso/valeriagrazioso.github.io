@@ -20,15 +20,16 @@ body {
 
 .header {
     height:30px;
-    
 }
 
 /*Letter & Button*/
 
 .letter-container {
-    width:491px;
+    width:385px;
     display: flex;
     align-items:baseline;
+    position: relative;
+    margin: 0 auto; 
 }
 
 .letter-container h1 {
@@ -36,9 +37,9 @@ body {
     font-weight:normal;
     margin-left:31.28px;
     margin-right:13.55px;
-    margin-top: -20px;
-    margin-bottom: -40px;
-    
+    margin-top: -60px;
+    margin-bottom: -70px;
+    position: static; 
 }
 
 .letter-container h2 {
@@ -47,8 +48,7 @@ body {
     margin-left:31.28px;
     margin-right:13.55px;
     margin-top: -20px;
-    margin-bottom: -40px;
-    
+    margin-bottom: -40px;   
 }
 
 #button {
@@ -62,8 +62,8 @@ body {
 .analysis {
     position: absolute;
     z-index:20;
-    top: 65.4px;
-    left: 378px;
+    top: -5px;
+    left: -17px;
 }
 
 .container-letters {
@@ -73,6 +73,7 @@ body {
     letter-spacing: 15px;
     height:90px;
     margin-bottom: 10px;
+    z-index: 1; 
 }
    
 .one {
@@ -83,15 +84,15 @@ body {
 }
 
 .photo-info {
-    height: 180px;
-    width: 180px;
+    height: 130px;
+    width: 130px;
     border: solid #fde8e5;
+    border-width: thick;
     align-content: center;
-    margin-top: 50 px;
+    margin-top: 15px;
     margin-left: 0px;
     margin-bottom: 10px;
-    float: left;
-    
+    float: left;   
 }
 
 .info {
@@ -103,25 +104,34 @@ body {
     text-align: right; 
 }
 
+.info h4 {
+    font-weight: normal;
+    font-size: 15px;
+}
+
 .sources {
     height: 195px;
-    width: 500px;
-    margin-top: 220px;
+    width: 370px;
+    margin-top: 198px;
     margin-bottom: 30px;
     float: center;
     text-align: left;
 }
 
+.sources h4 {
+    font-weight: normal;
+    font-size: 14px;
+}
+
 a {
-    color: skyblue;
+    color: #929ae8;
     text-decoration: none;
         }
         
 a:visited {
-    color: plum;
+    color: #fde8e5;
         }
 
-    
     /*Fonts*/
 
 .garamond-regular {
