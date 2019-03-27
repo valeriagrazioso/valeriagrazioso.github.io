@@ -253,35 +253,35 @@ a:hover {
     cursor: pointer;
 }
 
-#quetzal-button {
+#animal1-button {
     position: relative;
     left: 105px;
 }
 
-#jaguar-button {
+#animal2-button {
     position: relative;
     right: -160px;
 }
 
-#sloth-button {
+#animal3-button {
     position: relative;
     bottom: -295px;
     right: 395px;
 }
 
-#boa-button {
+#animal4-button {
     position: relative;
     bottom: -295px;
     left: -340px;
 }
 
-#puma-button {
+#animal5-button {
     position: relative;
     bottom: -590px;
     right: 895px;
 }
 
-#monkey-button {
+#animal6-button {
     position: relative;
     bottom: -590px;
     left: -840px;
