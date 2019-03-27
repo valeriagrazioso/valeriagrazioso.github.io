@@ -19,7 +19,7 @@ body {
 
 h1 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     font-family: 'Poppins', sans-serif;
     margin-top: -30px;
     font-size: 90px;
@@ -27,7 +27,7 @@ h1 {
 
 h3 {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
     font-family: 'Poppins', sans-serif;
     font-size: 60px;
 }
@@ -41,7 +41,7 @@ h3 {
 }
 
 .animals img {
-    width:260px;
+    width:250px;
 }
 
 .animals img:hover {
@@ -147,8 +147,9 @@ a {
 }
 
 .modal-content img {
-    height: 256px;
-    padding-top: 100px;
+    height: 240px;
+    padding-top: 115px;
+    padding-right: 15px;
 }
 
 
@@ -254,23 +255,36 @@ a:hover {
 
 #quetzal-button {
     position: relative;
-    left: 100px;
+    left: 105px;
 }
 
 #jaguar-button {
     position: relative;
-    right: -150px;
+    right: -160px;
 }
 
 #sloth-button {
     position: relative;
-    bottom: -310px;
-    right: 420px;
+    bottom: -295px;
+    right: 395px;
 }
 
 #boa-button {
     position: relative;
-    bottom: -310px;
-    left: -370px;
+    bottom: -295px;
+    left: -340px;
 }
+
+#puma-button {
+    position: relative;
+    bottom: -590px;
+    right: 895px;
+}
+
+#monkey-button {
+    position: relative;
+    bottom: -590px;
+    left: -840px;
+}
+
 

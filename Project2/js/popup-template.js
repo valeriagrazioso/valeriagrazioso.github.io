@@ -31,7 +31,7 @@ $(document).ready(function (){
 });
 
 
-//************************ Puma Button *****************
+//************************ Boa Button *****************
 
 $(document).ready(function (){
     $('#boa-button').click(function() {
@@ -59,6 +59,38 @@ $(document).ready(function (){
 $(document).ready(function (){
     $('#jaguar-close').click(function() {
         $("#jaguar-modal").toggleClass("visible")
+        $(".modal").toggleClass("visible");
+        });
+});
+
+//************************ Puma Button *****************
+
+$(document).ready(function (){
+    $('#puma-button').click(function() {
+        $("#puma-modal").toggleClass("visible");
+        $(".modal").toggleClass("visible");
+        });
+});
+
+$(document).ready(function (){
+    $('#puma-close').click(function() {
+        $("#puma-modal").toggleClass("visible")
+        $(".modal").toggleClass("visible");
+        });
+});
+
+//************************ Monkey Button *****************
+
+$(document).ready(function (){
+    $('#monkey-button').click(function() {
+        $("#monkey-modal").toggleClass("visible");
+        $(".modal").toggleClass("visible");
+        });
+});
+
+$(document).ready(function (){
+    $('#monkey-close').click(function() {
+        $("#monkey-modal").toggleClass("visible")
         $(".modal").toggleClass("visible");
         });
 });
