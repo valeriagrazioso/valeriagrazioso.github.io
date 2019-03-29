@@ -197,8 +197,8 @@ footer dd {
     .site-header {
     background-color: yellowgreen;
     width: 100%;
-    border-top: .3125rem dotted #0b032d;
-    border-bottom: .3125rem dotted #0b032d;
+    border-top: .3125rem double #0b032d;
+    border-bottom: .3125rem double #0b032d;
 }
     .info {
     color: lightseagreen;
@@ -238,8 +238,8 @@ footer dd {
     .site-header {
     background-color: darkslateblue;
     width: 100%;
-    border-top: .9rem double #32292F;
-    border-bottom: .9rem double #32292F;
+    border-top: .9rem dotted #32292F;
+    border-bottom: .9rem dotted #32292F;
 }
     footer .footer-info {
     color: darkgrey;
