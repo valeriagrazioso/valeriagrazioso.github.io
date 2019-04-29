@@ -1,0 +1,82 @@
+<!docttype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Cantata+One|Questrial" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="header">
+            <div class="name">
+            <a href="index.html" ><h1>valeria grazioso</h1></a>
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction ()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="about.html">about</a>
+            <a href="resume.html">resume</a>
+            <a href="index.html" class="active">home</a>
+        </div>
+    </div>
+
+    <section class="page">
+        <main>
+
+        
+            <div class="portfolio">
+                <div class="top-projects">
+                    <div class="project-1 img">
+                        <a href="project-1.html">
+                            <img src="assets/project-1.jpeg" style="max-width:100%;height:auto;">
+                        </a>
+                    </div>
+
+                    <div class="project-2 img">
+                        <a href="project-2.html">
+                            <img src="assets/project-2.jpeg" style="max-width:100%;height:auto;">
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="bottom-projects">
+                <div class="project-3 img">
+                    <a href="project-3.html">
+                        <img src="assets/project-3.jpeg" style="max-width:100%;height:auto;">
+                    </a>
+                </div>
+
+                <div class="project-4 img">
+                    <a href="project-4.html">
+                        <img src="assets/project-4.jpeg" style="max-width:100%;height:auto;">
+                    </a>
+                </div>
+                    </div>
+            </div>
+        </main>
+    </section>
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += "responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+        // /main>
+    </script>
+
+
+
+
+
+</body>
+
+</html>
