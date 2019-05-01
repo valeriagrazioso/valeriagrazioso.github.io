@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    width: 100%;
+}
+
+.nav-bar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+
+}
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: .875rem 1rem;
+    text-decoration: none;
+    font-size: .95rem;
+    font-family: gill-sans-nova, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.topnav a.icon {
+    color: lightpink;
+    float: right;
+    display: block;
+    font-size: 1.25rem;
+}
+
+.topnav a:hover {
+    background-color: lightpink;
+    color: #fff;
+}
+
+.topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav.responsive a {
+    float: none;
+    display: block;
+}
+
+.main-nav a {
+    display: none;
+}
+
+.main-nav {
+    /*    margin-top:3.5rem;*/
+}
+
+.main-nav.responsive {
+    position: relative;
+
+}
+
+.main-nav.responsive a {
+    float: none;
+    display: block;
+}
+
+
+/*****************/
+/**** Header *****/
+/*****************/
+
+header {
+    position: relative;
+}
+
+.site-header {
+    background-color: lightpink;
+    width: 100%;
+}
+
+
+.page {
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+}
+
+body {
+    display: block;
+    margin:1rem;
+
+}
+
+a:link {
+    text-decoration: none;
+    color:black;
+} 
+
+a:active {
+    text-decoration: none;
+    color:lightblue;
+}
+
+.page {
+    position: relative;
+    margin: 20px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+
+h1 {
+    margin-top: 5rem;
+    font-family: gill-sans-nova, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 3.125rem;
+    margin-top: .65rem;
+}
+
+h2 {
+    font-family: gill-sans-nova, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 2.7rem;
+    margin-top: .3rem;
+    margin-bottom: 0.7rem;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-family: gill-sans-nova, sans-serif;
+    text-align: center;
+    padding-top:.5rem;
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-decoration:none;
+    
+}
+p {
+    font-family: gill-sans-nova, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: .5rem;
+}
+
+.title {
+    text-align: center;
+    padding-top: 3rem;
+
+}
+
+/******************* Individual Page STYLING
+*****************************/
+
+.intro {
+    margin-bottom: 1.25rem;
+    margin-top: 3.125rem;
+}
+
+.intro h1 {
+    font-size: 3.125rem;
+    margin-bottom: 1.25rem;
+    margin-top: 5rem;
+    font-family: 'Pacifico', cursive;
+    font-weight: 600;
+    font-style: normal;
+    color: lightpink;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+}
+
+
+.about-me {
+    width: 50%;
+    position:relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+
+
+.description {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#back {
+    background-color: lightpink;
+    margin:auto;
+    width: 5rem;
+    height:3rem;   
+}
+
+@media only screen and (min-width: 601px) {
+
+    .page {
+        width:60rem;
+        margin: 0 auto;
+    }
+    
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .topnav a.icon {
+        display: none;
+    }
+
+    .topnav.responsive .icon {
+        display: none;
+    }
+
+    .main-nav a {
+        display: flex;
+    }
+
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+  .img {
+        padding: 0 0 1.5rem 0;
+    }
+
+    .title {
+        text-align: left;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }   
+    
+}
+
+   
+@media only screen and (min-width: 960px) {
+    .page {
+        width: 60rem;
+        margin: 0 auto;
+    }
+
+    nav {
+        width: 54rem;
+        margin: 0 auto;
+    }
+
+    .main-nav {
+        margin-right: 0px;
+    }
+
+    .main-nav a {
+        font-size: 1.50rem;
+    }
+
+    .my-photo img {
+        width:100%;
+    }
+    
+    .intro {
+        width: 80%;
+        margin-bottom: 2.5rem;
+    }
+    
+    .intro h1 {
+        font-size: 4rem;
+        margin-left: .8rem;
+    }
