@@ -107,36 +107,45 @@ main {
 ***/* Intro */***
 *****************
 
-.intro {
-    margin-bottom: 1.25rem;
-    margin-top: 3.125rem;
+.name {
+    margin-bottom: 6rem;
+    margin-top: 3rem;
 }
 
-.intro h1 {
+.name h1 {
     font-size: 3.125rem;
     margin-bottom: 1.25rem;
     margin-top: 5rem;
-    font-family: 'Pacifico', cursive;
-    font-weight: 600;
+     font-family: gill-sans-nova, sans-serif;
+    font-weight: 400;
     font-style: normal;
-    color: lightpink;
+    color: #e58e99;
     text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+    text-align: center;
 }
 
-.intro p {
-    font-size: 1.25rem;
+.name p {
+    font-size: 1rem;
     font-family: gill-sans-nova, sans-serif;
     font-weight: 200;
     font-style: normal;
+    width: 100%;
+}
+
+.name h1 span {
+	font-weight: 800;
 }
 
 .projects {
     z-index: 0;
 }
 
+.projects h2 span {
+	font-weight: 800;
+}
+
 .project1 {
     width: 100%;
-/*    height: 21.875rem;*/
     position: relative;
     overflow: hidden;
 }
@@ -145,24 +154,23 @@ main {
     width: 100%;
 }
 
-.project1_info {
+.overlay1 {
     width: 100%;
     position: absolute;
-    bottom: 0;
     color: #fff;
 }
 
-.project1_info h4 {
+.overlay1 h2 {
     padding: 0.625rem;
     font-family: gill-sans-nova, sans-serif;
     font-weight: 200;
     font-style: normal;
-    background-color: black;
+    background-color: rgba(87,117,165,0.4);
+    text-align: right;
 }
 
 .project2 {
     width: 100%;
-/*    height: 21.875rem;*/
     position: relative;
     overflow: hidden;
     margin: 3.125rem 0;
@@ -172,25 +180,24 @@ main {
     width: 100%;
 }
 
-.project2_info {
+.overlay2 {
     width: 100%;
     position: absolute;
-    bottom: 0;
     color: #fff;
     z-index: 2;
 }
 
-.project2_info h4 {
+.overlay2 h2 {
     padding: 0.625rem;
     font-family: gill-sans-nova, sans-serif;
     font-weight: 200;
     font-style: normal;
-    background-color: #000;
+    background-color: rgba(87,117,165,0.4);
+    text-align: right;
 }
 
 .project3 {
     width: 100%;
-/*    height: 21.875rem;*/
     position: relative;
     overflow: hidden;
     margin: 3.125rem 0;
@@ -200,25 +207,23 @@ main {
     width: 100%;
 }
 
-.project3_info {
+.overlay3 {
     width: 100%;
     position: absolute;
-    bottom: 0;
     color: #fff;
 }
 
-.project3_info h4 {
+.overlay3 h2 {
     padding: 0.625rem;
     font-family: gill-sans-nova, sans-serif;
     font-weight: 200;
     font-style: normal;
-    background-color: #000;
-    
+    background-color: rgba(87,117,165,0.4);
+    text-align: right;
 }
 
 .project4 {
     width: 100%;
-/*    height: 21.875rem;*/
     position: relative;
     overflow: hidden;
     margin: 3.125rem 0;
@@ -228,19 +233,19 @@ main {
     width: 100%;
 }
 
-.project4_info {
+.overlay4 {
     width: 100%;
     position: absolute;
-    bottom: 0;
     color: #fff;
 }
 
-.project4_info h4 {
+.overlay4 h2 {
     padding: 0.625rem;
     font-family: gill-sans-nova, sans-serif;
     font-weight: 200;
     font-style: normal;
-    background-color: #000;
+    background-color: rgba(87,117,165,0.4);
+    text-align: right;
 }
 
 
@@ -264,81 +269,65 @@ main {
     .main-nav a {
         display: flex;
     }
+    
 
 }
 
 @media only screen and (min-width: 960px) {
     .page {
-        width: 60rem;
         margin: 0 auto;
+        margin-left: 7rem;
+        margin-right: 7rem;
     }
 
     nav {
-        width: 54rem;
         margin: 0 auto;
     }
 
     .main-nav {
-        margin-right: 0px;
+        margin-right: 7rem;
     }
 
     .main-nav a {
         font-size: 1.50rem;
     }
     
-    .intro {
+    .name {
         width: 80%;
         margin-bottom: 2.5rem;
     }
     
-    .intro h1 {
+    .name h1 {
         font-size: 4rem;
         margin-left: .8rem;
     }
 
-    .intro p {
+    .name p {
         margin-bottom: 6.25rem;
     }
     
     .projects {
         width: 100%;
         display: grid;
-        justify-content: space-around;
-
+        justify-content: space-between;
     }
     
+
     .project1 {
-        width: 29rem;
-        height: 23rem;
+        width: 32rem;
+        height: 26rem;
         margin-bottom: .9rem;
         grid-column-start: 1;    
     }
+    
     
     .project1 img {
         height: 100%;
     }
     
-    .project1_info {
-/*        position: relative;*/
-        width: 100%;
-        height: 100%;
-        color: transparent;
-    }
-    
-    .project1_info:hover {
-        background-color: rgba(29,144,252,0.4);
-        color: #fff;
-    }
-    
-    .project1_info h4 {
-        font-size: 3.125rem;
-        background-color: transparent;
-    }
-    
-    
     .project2 {
-        width: 29rem;
-        height: 23rem;
+        width: 32rem;
+        height: 26rem;
         overflow: hidden;
         grid-column-start: 2;
         margin: 0;
@@ -350,62 +339,24 @@ main {
         position: relative;
     }
     
-    .project2_info {
-/*        position: relative;*/
-        width: 100%;
-        height: 100%;
-        color: transparent;
-        
-    }
-    
-    .project2_info:hover {
-        background-color: rgba(29,144,252,0.4);
-        color: #fff;
-    }
-    
-    .project2_info h4 {
-        font-size: 3.125rem;
-        background-color: transparent;
-    }
-    
-    .link3 {
-        text-decoration: none;
-    }
-    
+
     .project3 {
-        width: 29rem;
-        height: 23rem;
+        width: 32rem;
+        height: 26rem;
         margin-top: 0;
     }
     
     .project3 img {
         height: 100%;
     }
-    
-    .project3_info {
-/*        position: relative;*/
-        width: 100%;
-        height: 100%;
-        color: transparent;
-    }
-    
-    .project3_info:hover {
-        background-color: rgba(29,144,252,0.4);
-        color: #fff;
-    }
-    
-    .project3_info h4 {
-        font-size: 3.125rem;
-        background-color: transparent;
-    }
-    
+  
     .link4 {
         text-decoration: none;
-    }
+    } 
     
     .project4 {
-        width: 29rem;
-        height: 23rem;
+        width: 32rem;
+        height: 26rem;
         margin: 0;
     }
     
@@ -413,22 +364,139 @@ main {
         height: 100%;
     }
     
-    .project4_info {
-/*        position: relative;*/
+    * {
+        box-sizing: border-box;
+    }
+    
+    .image {
         width: 100%;
-        height: 100%;
-        color: transparent;
+        height: auto;
     }
     
-    .project4_info:hover {
-        background-color: rgba(29,144,252,0.4);
-        color: #fff;
-    }
-    
-    .project4_info h4 {
-        font-size: 3.125rem;
-        background-color: transparent;
+    .project-1 {
+    padding: .5rem .5rem .5rem .5rem;
+
     }
 
+    .project-2 {
+        padding: .5rem .5rem .5rem .5rem;
+    }
+
+    .project-3 {
+        padding: .5rem .5rem .5rem .5rem;
+    }
+
+    .projact-4 {
+        padding: .5rem .5rem .5rem .5rem;
+
+    }
+    
+    .overlay1 {
+        position: absolute; 
+        bottom: 0; 
+        background: rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.8);
+        color: black; 
+        width: 100%;
+        transition: .5s ease;
+        opacity:0;
+        color: black;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+        font-family: gill-sans-nova, sans-serif;
+        font-weight: 200;
+    }
+    
+    .overlay1 h2 {
+        font-size: 2.50rem;
+        background-color: transparent;
+        text-align: center;
+    } 
+    
+    .overlay2 {
+        position: absolute; 
+        bottom: 0; 
+        background: rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.8);
+        color: black; 
+        width: 100%;
+        transition: .5s ease;
+        opacity:0;
+        color: black;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+        font-family: gill-sans-nova, sans-serif;
+        font-weight: 200;
+    }
+    
+    .overlay2 h2{
+        font-size: 2.50rem;
+        background-color: transparent;
+        text-align: center;
+    }
+    
+    .overlay3 {
+        position: absolute; 
+        bottom: 0; 
+        background: rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.8);
+        color: black; 
+        width: 100%;
+        transition: .5s ease;
+        opacity:0;
+        color: black;
+        font-size: 20px;
+        padding: 20px;
+        font-family: gill-sans-nova, sans-serif;
+        font-weight: 200;
+    }
+    
+      .overlay3 h2 {
+        font-size: 2.50rem;
+        background-color: transparent;
+        text-align: center;
+    }
+   
+    .overlay4 {
+        position: absolute; 
+        bottom: 0; 
+        background: rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.8);
+        color: black; 
+        width: 100%;
+        transition: .5s ease;
+        opacity:0;
+        color: black;
+        font-size: 20px;
+        padding: 20px;
+        font-family: gill-sans-nova, sans-serif;
+        font-weight: 200;
+    }
+    
+    .overlay4 h2 {
+        font-size: 2.50rem;
+        background-color: transparent;
+        text-align: center;
+    }
+
+    .project1 :hover .overlay1 {
+        opacity: 1;
+    }
+    
+    .project2 :hover .overlay2 {
+        opacity: 1;
+    }
+
+    .project3 :hover .overlay3 {
+        opacity: 1;
+    }
+
+    .project4 :hover .overlay4 {
+        opacity: 1;
+    }
 }
+
+
 
