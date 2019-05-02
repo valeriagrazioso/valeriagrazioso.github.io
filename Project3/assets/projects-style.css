@@ -91,7 +91,7 @@ nav {
 
 .nav-bar {
     overflow: hidden;
-    background-color: white;
+    background-color: lightblue;
     position: fixed;
     top: 0;
     width: 100%;
@@ -118,14 +118,14 @@ nav {
 }
 
 .topnav a.icon {
-    color: lightpink;
+    color: white;
     float: right;
     display: block;
     font-size: 1.25rem;
 }
 
 .topnav a:hover {
-    background-color: lightpink;
+    background-color: lightsteelblue;
     color: #fff;
 }
 

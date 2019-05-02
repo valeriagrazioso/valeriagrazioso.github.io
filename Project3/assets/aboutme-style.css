@@ -1,5 +1,11 @@
 * {
-    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    margin:0;
+
 }
 
 nav {
@@ -9,7 +15,176 @@ nav {
 
 .nav-bar {
     overflow: hidden;
-    background-color: white;
+    background-color: lightblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.topnav a {
+        float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: .875rem 1rem;
+    text-decoration: none;
+    font-size: .95rem;
+    font-family: gill-sans-nova, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.topnav a.icon {
+    color: white;
+    float: right;
+    display: block;
+    font-size: 1.25rem;
+}
+
+.topnav a:hover {
+    background-color: lightsteelblue;
+    color: #fff;
+}
+
+.topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav.responsive a {
+    float: none;
+    display: block;
+}
+
+.main-nav a {
+    display: none;
+}
+
+.main-nav {
+    /*    margin-top:3.5rem;*/
+}
+
+.main-nav.responsive {
+    position: relative;
+}
+
+.main-nav.responsive a {
+    float: none;
+    display: block;
+}
+
+header {
+    position: relative;
+}
+
+
+
+.page {
+    width: 100%;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+.name {
+    margin-bottom: 1.25rem;
+    margin-top: 3.125rem;
+    text-align: center;
+}
+
+.name h1 {
+    font-size: 3.125rem;
+    margin-bottom: 1.25rem;
+    margin-top: 5rem;
+     font-family: gill-sans-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: lightblue;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+    text-align: center;
+}
+
+
+.name h1 span {
+	font-weight: 800;
+}
+
+h1 {
+    margin-top: 5rem;
+    font-family: gill-sans-nova, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 3.125rem;
+    margin-top: .65rem;
+}
+
+h2 {
+    font-family: gill-sans-nova, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 2.7rem;
+    margin-top: .3rem;
+    margin-bottom: 0.7rem;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-family: gill-sans-nova, sans-serif;
+    text-align: center;
+    padding-top:.3rem;
+    font-weight: 200;
+    font-size: 1.3rem;
+    text-decoration:none;   
+}
+
+h4 {
+    font-family: gill-sans-nova, sans-serif;
+    text-align: center;
+    padding-top:.3rem;
+    font-weight: 200;
+    font-size: 2.5rem; 
+}
+
+p {
+    font-family: gill-sans-nova, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: .5rem;
+}
+
+
+/******************* Nav Bar
+*****************************/
+
+
+header {
+    position: relative;
+    display: block;
+}
+
+
+nav {
+    text-align: center;
+    width: 100%;
+}
+
+.nav-bar {
+    overflow: hidden;
+    background-color: lightblue;
     position: fixed;
     top: 0;
     width: 100%;
@@ -36,14 +211,14 @@ nav {
 }
 
 .topnav a.icon {
-    color: lightpink;
+    color: white;
     float: right;
     display: block;
     font-size: 1.25rem;
 }
 
 .topnav a:hover {
-    background-color: lightpink;
+    background-color: lightsteelblue;
     color: #fff;
 }
 
@@ -60,6 +235,7 @@ nav {
 
 .main-nav a {
     display: none;
+    font-size: 1.50rem;
 }
 
 .main-nav {
@@ -76,91 +252,8 @@ nav {
     display: block;
 }
 
-
-/*****************/
-/**** Header *****/
-/*****************/
-
-header {
-    position: relative;
-}
-
-.site-header {
-    background-color: lightpink;
-    width: 100%;
-}
-
-
-.page {
-    width: 100%;
-}
-
-main {
-    width: 100%;
-    margin: auto;
-}
-
-body {
-    display: block;
-    margin:1rem;
-
-}
-
-a:link {
-    text-decoration: none;
-    color:black;
-} 
-
-a:active {
-    text-decoration: none;
-    color:lightblue;
-}
-
-.page {
-    position: relative;
-    margin: 20px;
-    margin-left: 4rem;
-    margin-right: 4rem;
-}
-
-
-h1 {
-    margin-top: 5rem;
-    font-family: gill-sans-nova, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 3.125rem;
-    margin-top: .65rem;
-}
-
-h2 {
-    font-family: gill-sans-nova, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 2.7rem;
-    margin-top: .3rem;
-    margin-bottom: 0.7rem;
-    text-align: center;
-}
-
-h3 {
-    color: white;
-    font-family: gill-sans-nova, sans-serif;
-    text-align: center;
-    padding-top:.5rem;
-    font-weight: 400;
-    font-size: 1.3rem;
-    text-decoration:none;
-    
-}
-p {
-    font-family: gill-sans-nova, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1rem;
-    margin-top: .5rem;
-}
+/******************* Nav Bar
+*****************************/
 
 .title {
     text-align: center;
@@ -168,113 +261,140 @@ p {
 
 }
 
-/******************* Individual Page STYLING
-*****************************/
-
-.intro {
-    margin-bottom: 1.25rem;
-    margin-top: 3.125rem;
-}
-
-.intro h1 {
-    font-size: 3.125rem;
-    margin-bottom: 1.25rem;
-    margin-top: 5rem;
-    font-family: 'Pacifico', cursive;
-    font-weight: 600;
-    font-style: normal;
-    color: lightpink;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
-}
-
-.about-me {
-    position:relative;
-    overflow: hidden;
-    z-index: 0;
-}
-
-
-.description {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    }
-
-#back {
-    background-color: lightpink;
-    margin:auto;
-    width: 5rem;
-    height:3rem;   
-}
-
-.img {
+.big-image {
     padding: .5rem .5rem .5rem .5rem;
 
 }
 
 
-@media only screen and (min-width: 601px) {
+/******************* Individual Page STYLING
+*****************************/
 
-    .page {
-        width:60rem;
-        margin: 0 auto;
-    }
-    
-    .main-nav {
-        display: flex;
-        margin-right: 30px;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
+.about_me {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
 
-    .topnav a.icon {
-        display: none;
-    }
+.description {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
-    .topnav.responsive .icon {
-        display: none;
-    }
+.button {
+    background-color: lightblue;
+    margin:auto;
+    width: 7em;
+    height:2.5rem;   
+    float: right;
+    width: auto;
+    padding: 7px;
+    color:#ffffff;
+    font-family: gill-sans-nova, sans-serif;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 5em;
+    text-align: inherit;
+    margin-top: 3em;
+}
 
-    .main-nav a {
-        display: flex;
-    }
+.button:hover {
+    background-color:lightsteelblue;
+}
 
+
+
+@media screen and (max-width: 600px) {
 
     .about-me {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-
-    }
-    
-    .description {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
     }
 
-  .img {
+    .page {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    .img {
         padding: 0 0 1.5rem 0;
+    }
+
+    body {
+        margin: 0;
     }
 
     .title {
         text-align: left;
         margin-left: 2rem;
         margin-right: 2rem;
-    } 
-    
-     .my-photo img {
-        width:100%;
     }
-    
+
+
 }
 
-   
+
+@media screen and (max-width: 650px) {
+    .topnav a: {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+        margin-top: .85rem;
+        font-size: 1.8rem;
+    }
+
+    .title {
+        text-align: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .topnav .icon {
+        display: none;
+    }
+
+    .overall-description {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: .5rem .5rem .5rem .5rem;
+
+    }
+
+    .page {
+        margin: 2.5rem;
+        padding: 0;
+        border: 0;
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+}
+
 @media only screen and (min-width: 960px) {
     .page {
+        /* 960px */
         width: 60rem;
         margin: 0 auto;
     }
@@ -291,17 +411,21 @@ p {
     .main-nav a {
         font-size: 1.50rem;
     }
-
-    .my-photo img {
-        width:100%;
-    }
     
     .intro {
         width: 80%;
-        margin-bottom: 2.5rem;
+
     }
     
-    .intro h1 {
-        font-size: 4rem;
-        margin-left: .8rem;
+    .name h1 {
+        font-size: 4.6875rem;
     }
+
+    .my-image {
+        width:60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ 
+}
