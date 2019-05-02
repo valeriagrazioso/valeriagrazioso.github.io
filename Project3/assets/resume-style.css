@@ -107,7 +107,7 @@ main {
     text-align: center;
 }
 
-.name h1 {
+/*.name h1 {
     font-size: 4rem;
     margin-bottom: .95rem;
     margin-top: 4rem;
@@ -115,7 +115,25 @@ main {
     font-weight: 600;
     font-style: normal;
     color: lightblue;
+}*/
+
+.name h1 {
+    font-size: 3.125rem;
+    margin-bottom: 1.25rem;
+    margin-top: 5rem;
+     font-family: gill-sans-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: lightblue;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+    text-align: center;
 }
+
+
+.name h1 span {
+	font-weight: 800;
+}
+
 
 .content {
     margin-bottom: 1.25rem;
