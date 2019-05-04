@@ -8,80 +8,6 @@ body {
 
 }
 
-nav {
-    text-align: center;
-    width: 100%;
-}
-
-.nav-bar {
-    overflow: hidden;
-    background-color: lightblue;
-    position: fixed;
-    top: 0;
-    width: 100%;
-
-}
-
-.topnav {
-    overflow: hidden;
-    position: relative;
-}
-
-
-
-.topnav a {
-        float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: .875rem 1rem;
-    text-decoration: none;
-    font-size: .95rem;
-    font-family: gill-sans-nova, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-}
-
-.topnav a.icon {
-    color: white;
-    float: right;
-    display: block;
-    font-size: 1.25rem;
-}
-
-.topnav a:hover {
-    background-color: lightsteelblue;
-    color: #fff;
-}
-
-.topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.topnav.responsive a {
-    float: none;
-    display: block;
-}
-
-.main-nav a {
-    display: none;
-}
-
-.main-nav {
-    /*    margin-top:3.5rem;*/
-}
-
-.main-nav.responsive {
-    position: relative;
-}
-
-.main-nav.responsive a {
-    float: none;
-    display: block;
-}
-
 header {
     position: relative;
 }
@@ -176,7 +102,6 @@ header {
     display: block;
 }
 
-
 nav {
     text-align: center;
     width: 100%;
@@ -211,14 +136,14 @@ nav {
 }
 
 .topnav a.icon {
-    color: white;
+    color: black;
     float: right;
     display: block;
     font-size: 1.25rem;
 }
 
 .topnav a:hover {
-    background-color: lightsteelblue;
+    background-color: lightslategray;
     color: #fff;
 }
 
@@ -235,7 +160,6 @@ nav {
 
 .main-nav a {
     display: none;
-    font-size: 1.50rem;
 }
 
 .main-nav {
@@ -252,8 +176,10 @@ nav {
     display: block;
 }
 
-/******************* Nav Bar
+
+/******************* Individual Page STYLING
 *****************************/
+
 
 .title {
     text-align: center;
@@ -265,10 +191,6 @@ nav {
     padding: .5rem .5rem .5rem .5rem;
 
 }
-
-
-/******************* Individual Page STYLING
-*****************************/
 
 .about_me {
     width: 100%;
@@ -303,8 +225,6 @@ nav {
 .button:hover {
     background-color:lightsteelblue;
 }
-
-
 
 @media screen and (min-width: 601px) {
 
@@ -378,12 +298,11 @@ nav {
     }
 
     nav {
-        width: 54rem;
         margin: 0 auto;
     }
 
     .main-nav {
-        margin-right: 0px;
+        margin-right: 7rem;
     }
 
     .main-nav a {
@@ -405,7 +324,6 @@ nav {
         width: 60rem;
         margin: 0 auto;
     }
-
 
     .name h1 {
         font-size: 4.6875rem;

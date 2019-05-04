@@ -40,14 +40,14 @@ nav {
 }
 
 .topnav a.icon {
-    color: lightpink;
+    color: black;
     float: right;
     display: block;
     font-size: 1.25rem;
 }
 
 .topnav a:hover {
-    background-color: lightpink;
+    background-color: lightslategray;
     color: #fff;
 }
 

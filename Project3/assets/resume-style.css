@@ -2,81 +2,16 @@
     margin: 0;
 }
 
-nav {
+.title {
     text-align: center;
-    width: 100%;
-}
-
-.nav-bar {
-    overflow: hidden;
-    background-color: white;
-    position: fixed;
-    top: 0;
-    width: 100%;
+    padding-top: 3rem;
 
 }
 
-.topnav {
-    overflow: hidden;
-    position: relative;
-}
-
-
-
-.topnav a {
-        float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: .875rem 1rem;
-    text-decoration: none;
-    font-size: .95rem;
-    font-family: gill-sans-nova, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-}
-
-.topnav a.icon {
-    color: #fff;
-    float: right;
-    display: block;
-    font-size: 1.25rem;
-}
-
-.topnav a:hover {
-    background-color: lightpink;
-    color: #fff;
-}
-
-.topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.topnav.responsive a {
-    float: none;
-    display: block;
-}
-
-.main-nav a {
-    display: none;
-}
-
-.main-nav {
-    /*    margin-top:3.5rem;*/
-}
-
-.main-nav.responsive {
-    position: relative;
+.big-image {
+    padding: .5rem .5rem .5rem .5rem;
 
 }
-
-.main-nav.responsive a {
-    float: none;
-    display: block;
-}
-
 
 /*****************/
 /**** Header *****/
@@ -85,12 +20,6 @@ nav {
 header {
     position: relative;
 }
-
-.site-header {
-    background-color: lightpink;
-    width: 100%;
-}
-
 
 .page {
     width: 100%;
@@ -229,39 +158,84 @@ body {
     margin-top: 15px;
 }
 
+*******************
+***/* Nav Bar */***
+*******************
 
-@media only screen and (min-width: 960px){
+nav {
+    text-align: center;
+    width: 100%;
+}
 
-    .flex{
-	display: flex;
-}  
-      
-body{
-    width: 960px;
-  }
-    
-header{
-    display: flex;
-  }
-    
-    .whole-container {
-        display: flex;
-        margin:0 auto;
-        padding:10;
-        width:90%
-    }
-    
-    .left-container {
-        margin-left: 80px;
-        margin-right: 40px;
-        width:50%;
-        margin-top: 10px;
-    }
-    
-     .right-container {
-        margin-top: 10px;
-    }
-    
+.nav-bar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+
+}
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: .875rem 1rem;
+    text-decoration: none;
+    font-size: .95rem;
+    font-family: gill-sans-nova, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.topnav a.icon {
+    color: black;
+    float: right;
+    display: block;
+    font-size: 1.25rem;
+}
+
+.topnav a:hover {
+    background-color: lightslategray;
+    color: #fff;
+}
+
+.topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav.responsive a {
+    float: none;
+    display: block;
+}
+
+.main-nav a {
+    display: none;
+}
+
+.main-nav {
+    /*    margin-top:3.5rem;*/
+}
+
+.main-nav.responsive {
+    position: relative;
+
+}
+
+.main-nav.responsive a {
+    float: none;
+    display: block;
+}
+
     
 @media only screen and (min-width: 601px) {
 
@@ -294,13 +268,18 @@ header{
         margin: 0 auto;
     }
 
+   .page {
+        margin: 0 auto;
+        margin-left: 7rem;
+        margin-right: 7rem;
+    }
+
     nav {
-        width: 54rem;
         margin: 0 auto;
     }
 
     .main-nav {
-        margin-right: 0px;
+        margin-right: 7rem;
     }
 
     .main-nav a {
@@ -322,4 +301,36 @@ header{
  
     .content h3{
     margin-top: 1.5rem;
+        }
+
+    .flex{
+	   display: flex;
+        }  
+      
+    body{
+        width: 960px;
+        } 
+    
+    header{
+        display: flex;
+    }
+    
+    .whole-container {
+        display: flex;
+        margin:0 auto;
+        padding:10;
+        width:90%
+    }
+    
+    .left-container {
+        margin-left: 80px;
+        margin-right: 40px;
+        width:50%;
+        margin-top: 10px;
+    }
+    
+     .right-container {
+        margin-top: 10px;
+    }
+    
 }
